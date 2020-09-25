@@ -33,7 +33,7 @@ class App extends Component {
   async getBackground(weather) {
     try {
       const response = await fetch(
-        `https://api.unsplash.com/photos/random/?client_id=${secret.UPSPLASH_APP_KEYappit}&query=${weather}`,
+        `https://api.unsplash.com/photos/random/?client_id=${secret.UPSPLASH_APP_KEY}&query=${weather}`,
         { mode: "cors" }
       );
       return await response.json();
