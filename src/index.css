@@ -1,0 +1,20 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#weather-card {
+  background: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
